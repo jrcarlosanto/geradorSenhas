@@ -5,12 +5,23 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Gerador de Senhas</title>
-    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <main>
-        
+    <main> 
+      <h1>Gerador de Senhas Aleatórias</h1>
+      <section>
+        <h2>Escolha a quantidade de caracteres:</h2>
+        <section id="inputButton" >
+          <input id="input" type="number" placeholder="Digite o número">
+          <button onclick="showPassword()" >Gerar Senha</button>
+        </section>
+      </section>
+      <section id="password">
+        <h2>Senha Gerada:</h2>
+        <h4 id="show"></h4>
+      </section>  
     </main>
-  <script src="/src/script.js"></script>  
+  <script src="src/script.js"></script>  
 </body>
 </html>
