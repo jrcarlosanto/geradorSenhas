@@ -1,6 +1,3 @@
-let visibility = false;
-//let o = document.getElementsById("input");
-
 const generatePassword = (size) => {
     const arrayCaracter= [];
     let randomNumber = 0;
@@ -20,5 +17,4 @@ const showPassword = () => {
     }
     let password = generatePassword(size);
     document.getElementById("show").innerHTML = password;
-    visibility = true; 
 };
