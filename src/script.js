@@ -16,5 +16,5 @@ const showPassword = () => {
         return alert("Só pode números maiores que 0!");;
     }
     let password = generatePassword(size);
-    document.getElementById("show").innerHTML = password;
+    document.getElementById("show").innerText = password;
 };

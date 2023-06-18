@@ -40,11 +40,23 @@ button {
     border-radius: 10px;
     font-size: 15px;
     font-weight: bolder;
+    transition: 1s;
+}
+
+button:hover {
+    transition: 1s;
+    background-color:rgb(99, 97, 93)
+}
+
+button:active {
+    transition: 1s;
+    background-color:rgb(251, 250, 249)
 }
 
 #show {
     max-width: 70%;
     margin: auto;
     padding-bottom: 50px;
-    overflow: hidden;
+    overflow: auto;
 }
+
